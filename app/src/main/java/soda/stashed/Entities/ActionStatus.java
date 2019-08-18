@@ -11,6 +11,17 @@ public class ActionStatus {
         this.Message= message;
         this.Success= success;
     }
+
+    private int ID;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
     public boolean Success;
     public String  Message;
 

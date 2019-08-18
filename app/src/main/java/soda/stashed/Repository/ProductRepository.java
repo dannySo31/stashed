@@ -54,4 +54,9 @@ public class ProductRepository extends BaseRepository
     public ActionStatus Restore(Product entity) {
         return null;
     }
+
+    @Override
+    public ActionStatus Commit() {
+        return null;
+    }
 }

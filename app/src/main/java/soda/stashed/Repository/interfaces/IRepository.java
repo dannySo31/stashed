@@ -23,4 +23,6 @@ public interface IRepository<T> {
      ActionStatus Restore(T entity);
 
 
+     ActionStatus Commit();
+
 }
