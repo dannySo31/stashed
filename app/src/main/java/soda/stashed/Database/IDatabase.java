@@ -9,6 +9,6 @@ public interface IDatabase<T> {
     ActionStatus Update(T entity);
     ActionStatus Delete(T entity);
     ActionStatus Restore(T entity);
-    List<T> Search(String searchPhrase);
+    List<T> Search(String searchPhrase, boolean isDeleted);
     T Get(int id);
 }

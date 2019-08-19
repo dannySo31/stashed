@@ -7,9 +7,10 @@ public class ActionStatus {
         Message="";
     }
 
-    public ActionStatus(boolean success, String message){
+    public ActionStatus(boolean success, String message, int id){
         this.Message= message;
         this.Success= success;
+
     }
 
     private int ID;
@@ -26,11 +27,11 @@ public class ActionStatus {
     public String  Message;
 
     public static ActionStatus Success(String message){
-        return new ActionStatus(true,message);
+        return new ActionStatus(true,message,0);
     }
 
     public static ActionStatus Failed(String message){
-        return new ActionStatus(false,message);
+        return new ActionStatus(false,message,0);
     }
 
 }

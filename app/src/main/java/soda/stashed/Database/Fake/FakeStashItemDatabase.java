@@ -28,7 +28,7 @@ public class FakeStashItemDatabase implements IStashItemDatabase {
     }
 
     @Override
-    public List<StashItem> Search(String searchPhrase) {
+    public List<StashItem> Search(String searchPhrase, boolean isDeleted) {
         return null;
     }
 

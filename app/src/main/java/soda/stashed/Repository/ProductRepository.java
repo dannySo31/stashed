@@ -8,7 +8,7 @@ import soda.stashed.Helpers.ContextHelper;
 import soda.stashed.Repository.interfaces.BaseRepository;
 import soda.stashed.Repository.interfaces.IProductRepository;
 
-public class ProductRepository extends BaseRepository
+public class ProductRepository extends BaseRepository<Product>
         implements IProductRepository {
 
     public ProductRepository(){

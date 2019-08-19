@@ -7,6 +7,8 @@ import soda.stashed.Entities.ActionStatus;
 import soda.stashed.Entities.Product;
 
 public class FakeProductDatabase  implements IProductDatabase {
+
+
     @Override
     public ActionStatus Insert(Product entity) {
         return null;
